@@ -14,16 +14,17 @@
     ul - Done
     footer - Done
     --------
+    HTML Grouping Elements
     abbr - Done(CW2)
     b - Done
     code - Done
-    data
-    em
-    mark
+    data - done
+    em - done
+    mark - Done
     time - Done (2003)
     figure - Done on Photo
     figcaption - Done on Photo
-    blockquote
+    blockquote - Done on Film Review
 -->
 
 <!DOCTYPE html>
@@ -38,20 +39,22 @@
 </head>
 
 <body>
+    <header>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="https://dev.to/kenhudak519">Dev.to</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    </header>
 
-        <div class="topnav">
-                <a class="active" href="#home">Home</a>
-                <a href="https://dev.to/kenhudak519">Dev.to</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-              </div>
     <nav>
         <span>
             <h1 class="logo">Hello. I'm Ken</h1>
         </span>
                 <ul>
                         <li><abbr title="Chief Warrant Officer 2">CW2</abbr>, US Army Reserve (RET)</li>
-                        <li>Web Development, Vets Who Code</li>
+                        <li>Web Development, <mark>Vets Who Code</li></mark></li>
                         <li>Data Analytics, St. Clair College</li>
                         <li>Occasional Marathon Runner</li>
                         <li>Addicted Formula 1 Fan</li>
@@ -64,17 +67,41 @@
                     </figure>                    
                     
  <p>
-
-    <br>
     <br>
     Located halfway between <b>Ramadi</b> and Fallujah near Al-Taqaddum Air Base in Al Habbaniyah in Anbar Province, Iraq. In the late 1930s and 1940s Lake Habbaniyah was used by Imperial Airways as a refueling point and hotel for flying boats flying from the United Kingdom to India.
      <br><br>
-     Regulated supplies may be scheduled or demanded. However, the commander and his staff must closely control these supplies because of scarcity, high cost, or mission needs. Any item or group of items may be designated as regulated; normally some items in Classes II, III (bulk), IV, V, and VII are regulated. If an item is regulated, the commander who so designated it, must approve its release before it is issued. Items designated as command-regulated are identified in operation plans and orders. 
+     The Iraqi airbase was long-abandoned when U.S. forces occupied it in March 2003. 
+     The U.S. Army started to refer to the base as Forward Operating Base (FOB) Ridgway. 
+     The first U.S. Battalion to occupy the base was the 142nd Corps Support Battalion. 
+     The primary mission of the 142nd was to provide logistical support to nearby non-divisional Army units. 
+     However, a consequential mission of the <data>800</data> soldier battalion was to guard the local Iraqi ammunition 
+     storage area that at one time supplied the ammunition requirements of the defunct Iraqi airbase. 
+     Aviation elements of the 3rd ACR occupied the airfield from April 2003 until replaced by 82nd Airborne Division in July 2003. 
   <br><br>
-  In order to be more compliant with the semantic web, the Chief Warrant Officer 2 abbreviation was noted using the following code:
+  
+<section class = "stories">
+  <article> 
+      <h1>Film Review</h1>
+    Occupation: Dreamland is a "grunt's-eye view,"[1] 2005 documentary film focused on a company of the 1/505 of the 82nd Airborne Division in Fallujah, Iraq, in early 2004. It is directed by Ian Olds and Garrett Scott. The title comes from the nickname of the base, Camp Volturno, on the outskirts of Fallujah. The American soldiers housed there called the place "Camp Dreamland." The film includes interviews with US soldiers, footage of their patrols in Fallujah, as well as interviews with Iraqi civilians. 
+    Garrett Scott died of a heart attack at age 37 in 2005, days before Occupation won the Independent Spirit Award. Ian Olds has written and directed several short fiction films and a documentary about journalists in Afghanistan. <em>Source: wikipedia</em>
+        <blockquote>
+                At their barracks, <em>a former Baathist retreat called Dreamland</em>, the men talk: about why they enlisted, civilian prospects, feelings about the war and Iraqis.
+        </blockquote>
+  </article>
+</section>
+
+  In order to be compliant with the semantic web, the Chief Warrant Officer 2 abbreviation on this page was noted using the following code:
   <code><xmp><abbr>title="Chief Warrant Officer 2">CW2</abbr></xmp></code>
  </p>
 
+ <aside class="sidebar">
+    <ul>
+        <li>Sidebar Item #1</li>
+        <li>Sidebar Item #2
+        <li>Sidebar Item #3</li>
+    </ul>
+
+ </aside>
 </div>
 <footer>
     <button type="button">More Info</button>
